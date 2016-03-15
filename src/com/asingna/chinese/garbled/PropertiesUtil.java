@@ -27,7 +27,7 @@ public class PropertiesUtil {
             return null;
         
         //编码转换，从ISO8859-1转向指定编码
-        value = new String(value.getBytes("ISO8859-1"), encoding);
+        value = new String(value.getBytes("ISO-8859-1"), encoding);
         return value;
     }
 }
